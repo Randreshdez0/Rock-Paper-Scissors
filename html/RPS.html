@@ -1,0 +1,41 @@
+<!--
+  Ricardo Hernandez
+  SD230
+  Rock Paper Scissors
+  10/16/2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RPS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <script src="../js/RPS.js"></script>
+  
+  <body>
+    <main>
+      <div class="header">
+        <h1 id="gametitle">Rochambeau</h1>  
+        <h3>Rock, Paper, Scissors</h3>
+      </div>
+      <div class="buttons">
+        <button id="rock" class="fist" onclick="selectOption('rock')">
+          <img src="../images/hand-back-fist-regular.svg">
+        </button>
+        <button id="paper" class="hand" onclick="selectOption('paper')">
+          <img src="../images/hand-regular.svg">
+        </button>
+        <button id="scissors" class="scissor" onclick="selectOption('scissors')">
+          <img src="../images/hand-scissors-regular.svg">
+        </button>
+      </div>
+      <div class="playbuttoncontainer">
+
+        <button id="play" class="playbutton" onclick="playButton()">Let's Go!</button>
+      </div>
+        
+        
+    </main>
+  </body>
+</html>
